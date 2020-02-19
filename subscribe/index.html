@@ -2,12 +2,49 @@
 <html>
     <head>
         <title>Subscribe to our newsletter!</title>
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="substyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>This will be the Subscribe page.</h1>
+        <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">JackedRamen</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home</a>
+                <a class="nav-item nav-link" href="#">About Us<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Subscribe</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="container"><h1>We have a newsletter!  Get info about our ramen straight to your inbox.</h1></div>
+        <div class="container">
+            <div class="row">
+                <img src="images/ramencool.png" alt="Instant Cup Dood"/>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <p>We're always creating new products!  Make sure you aren't missing out by subscribing to our newsletter.</p>
+            </div>
+            <div class="row">
+        <form>
+            <input type="text" placeholder="First name"/><br/>
+            <input type="text" placeholder="email"/><br/>
+            <h3>How often do you want to hear from us?</h3>
+            <input type="radio" id="daily" name="frequency" value="daily">
+            <label for="daily">Daily</label><br/>
+            <input type="radio" id="weekly" name="frequency" value="weekly">
+            <label for="weekly">Weekly</label><br/>
+            <input type="radio" id="monthly" name="frequency" value="monthly">
+            <label for="monthly">Monthly</label><br/>
+        </form>
+    </div>
+        </div>
     </body>
 </html>
