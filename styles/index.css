@@ -1,0 +1,58 @@
+/* Stylesheet for Homepage Jacked-Ramen*/
+
+
+body {
+
+    font-family: 'Sriracha', cursive;
+    
+}
+
+
+.navbar {
+
+    background-color: #F6E2B0;
+}
+
+#hero-image {
+
+    background-image: url("/images/RAMEN1.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.row {
+
+    height: 50vh;
+    margin-top: 45vh;
+}
+
+.newacc {
+    
+    text-align: center;
+}
+
+.order {
+
+    text-align: center;
+}
+
+.merch {
+
+    text-align: center;
+}
+
+
+
+a {
+
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #cb3131;
+
+}
