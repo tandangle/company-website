@@ -1,3 +1,30 @@
 body {
     background-color: #F6E2B0;
+    font-family: 'Sriracha', cursive;
+    padding: 30px;
+}
+
+.navbar {
+    background-color: #F6E2B0;
+}
+
+h1 {
+    color: rgb(45, 219, 45)
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.row {
+    justify-content: center;
 }
