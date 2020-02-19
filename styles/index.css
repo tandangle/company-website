@@ -15,7 +15,7 @@ body {
 
 #hero-image {
 
-    background-image: url("/images/RAMEN1.jpg");
+    background-image: url("../images/RAMEN1.jpg");
     background-size: cover;
     width: 100vw;
     height: 100vh;
